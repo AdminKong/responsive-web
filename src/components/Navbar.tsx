@@ -1,16 +1,16 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import Atomic from "../assets/53085-200.png";
+import Atomic from "../assets/3794-removebg-preview (1).png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white shadow-2xl shadow-gray-800/60 rounded-b-xl">
-        <img src={Atomic} alt="react" className="pl-2 h-8 sm:h-10 md:h-14" />
-        <h1 className="w-full text-xl font-bold pl-1 uppercase sm:text-2xl">
+      <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white shadow-2xl shadow-white/10 rounded-b-xl">
+        <img src={Atomic} alt="react" className="pl-2 h-8 sm:h-12 md:h-16" />
+        <a href="/" className="w-full text-xl font-bold pl-1 uppercase sm:text-2xl">
           Servite
-        </h1>
+        </a>
         <ul className="pr-2 hidden md:flex font-medium">
           <li className="p-4">
             <a href="/">Home</a>
