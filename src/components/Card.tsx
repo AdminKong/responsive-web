@@ -10,6 +10,8 @@ const Card = () => {
             <div className='text-center font-medium'>
               <p className='py-2 border-b mx-8 mt-8'>500 GB Storage</p>
               <p className='py-2 border-b mx-8'>1 User Allowed</p>
+              <p className='py-2 border-b mx-8'>Just Styling Without Database</p>
+              <p className='py-2 border-b mx-8'>Tailwindcss and React</p>
               <p className='py-2 border-b mx-8'>Send up to 5 GB</p>
             </div>
             <button className='w-[200px] rounded-md font-semibold my-7 mx-auto shadow-2xl hover:bg-blue-700 hover:shadow-blue-600/95 duration-300 text-white bg-blue-500 px-6 py-4'>Start Trial</button>
@@ -20,6 +22,8 @@ const Card = () => {
             <div className='text-center font-medium'>
               <p className='py-2 border-b mx-8 mt-8'>10 TB Storage</p>
               <p className='py-2 border-b mx-8'>10 User Allowed</p>
+              <p className='py-2 border-b mx-8'>Use mongoDB and PHP</p>
+              <p className='py-2 border-b mx-8'>Tailwindcss React Inertia Laravel</p>
               <p className='py-2 border-b mx-8'>Send up to 20 GB</p>
             </div>
             <button className='w-[200px] rounded-md font-semibold my-7 mx-auto shadow-2xl hover:bg-blue-700 hover:shadow-blue-600/95 duration-300 text-white bg-blue-500 px-6 py-4'>Start Trial</button>
@@ -30,6 +34,8 @@ const Card = () => {
             <div className='text-center font-medium'>
               <p className='py-2 border-b mx-8 mt-8'>5 TB Storage</p>
               <p className='py-2 border-b mx-8'>3 User Allowed</p>
+              <p className='py-2 border-b mx-8'>Use MySQL</p>
+              <p className='py-2 border-b mx-8'>Tailwindcss React Laravel</p>
               <p className='py-2 border-b mx-8'>Send up to 15 GB</p>
             </div>
             <button className='w-[200px] rounded-md font-semibold my-7 mx-auto shadow-2xl hover:bg-blue-700 hover:shadow-blue-600/95 duration-300 text-white bg-blue-500 px-6 py-4'>Start Trial</button>
